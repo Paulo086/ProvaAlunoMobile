@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ALUNO MOBILE" android:textColor="@color/accent" android:textSize="14sp" android:textStyle="bold" android:letterSpacing="0.12" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Painel acadêmico" android:textColor="@color/primary" android:textSize="30sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Escolha uma das funcionalidades do aplicativo para continuar." android:textColor="@color/text_secondary" android:textSize="16sp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:orientation="vertical" android:background="@drawable/card">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:textColor="@color/accent" android:textSize="22sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Cálculo de média" android:textColor="@color/primary" android:textSize="19sp" android:textStyle="bold" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Informe quatro notas e obtenha a média final." android:textColor="@color/text_secondary" android:textSize="14sp" />
+            <Button android:id="@+id/btnNotas" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="16dp" android:text="Abrir cálculo" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="@color/primary" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:orientation="vertical" android:background="@drawable/card">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:textColor="@color/accent" android:textSize="22sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Cadastro de aluno" android:textColor="@color/primary" android:textSize="19sp" android:textStyle="bold" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Cadastre RA, nome e e-mail no banco de dados local." android:textColor="@color/text_secondary" android:textSize="14sp" />
+            <Button android:id="@+id/btnCadastro" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="16dp" android:text="Cadastrar aluno" android:textStyle="bold" android:textColor="#FFFFFF" android:backgroundTint="@color/accent" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

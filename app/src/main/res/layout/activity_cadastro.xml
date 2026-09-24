@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BANCO DE DADOS" android:textColor="@color/accent" android:textSize="13sp" android:textStyle="bold" android:letterSpacing="0.15" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="Novo aluno" android:textColor="@color/primary" android:textSize="27sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Preencha os dados abaixo. O cadastro será armazenado localmente em SQLite." android:textColor="@color/text_secondary" android:textSize="15sp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="RA" android:textColor="@color/primary" android:textStyle="bold" />
+        <EditText android:id="@+id/etRa" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="6dp" android:background="@drawable/input" android:hint="Ex.: 123456" android:inputType="number" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Nome completo" android:textColor="@color/primary" android:textStyle="bold" />
+        <EditText android:id="@+id/etNome" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="6dp" android:background="@drawable/input" android:hint="Digite o nome" android:inputType="textCapWords" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="E-mail" android:textColor="@color/primary" android:textStyle="bold" />
+        <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="6dp" android:background="@drawable/input" android:hint="aluno@email.com" android:inputType="textEmailAddress" />
+        <Button android:id="@+id/btnSalvar" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="22dp" android:text="Salvar cadastro" android:textColor="#FFFFFF" android:textStyle="bold" android:backgroundTint="@color/accent" />
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:background="@drawable/result" android:gravity="center" android:padding="17dp" android:text="Aguardando cadastro" android:textColor="@color/text_dark" android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
